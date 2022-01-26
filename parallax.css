@@ -34,6 +34,70 @@ body {
   background-color: #8E9AA8;
   color: white;
 }
+@media (max-width: 400px) {
+  * {
+    box-sizing: border-box;
+  }
+  .topnav {
+    background-color: #1F2941;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    display: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.topnav input {
+  padding: 6px;
+  border: none;
+  margin: 0.5em auto 1em;
+  font-size: 1em;
+  display: flex;
+  justify-content: flex-start;
+}
+.topnav a {
+  float: left;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+}
+  .parallax1 h1 {
+    font-size: 0.5em;
+  }
+  .parallax1 p {
+    font-size: 0.2em;
+  }
+  .parallax1 {
+    height: 100px;
+    padding: 0;
+  }
+  .parallax2 {
+    height: 1000px;
+  }
+  .parallax2 h3 {
+    font-size: 1.5em;
+  }
+  .parallax2 p {
+    font-size: 1em;
+    padding: 2em;
+  }
+  .parallax3 {
+    height: 50em;
+  }
+  .parallax3 h3 {
+    font-size: 1.5em;
+    padding: 10em 0 0;
+  }
+  .parallax3 p {
+    font-size: 1em;
+    padding: 2em;
+  }
+  .footer {
+    bottom: 0;
+    position: relative;
+  }
+}
 
 .parallax1 {
 width: 100%;

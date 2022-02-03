@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
+/*Base style*/
 :root {
   --font: "Work Sans", sans-serif;
   --primary: #2a9d8f;
@@ -18,6 +19,9 @@ body {
   background-position: center;
   background-size: cover;
 }
+/*Base style*/
+
+/*Navbar*/
 nav {
   top: 0;
   text-align: center;
@@ -37,6 +41,9 @@ nav li a:hover {
   border-radius: 0.7em;
   text-decoration: none;
 }
+/*Navbar*/
+
+/*Header*/
 header {
   text-align: center;
   color: var(--secondary);
@@ -59,6 +66,9 @@ header h1 {
   margin: 3em 10em;
   border-radius: 0.6em;
 }
+/*Header*/
+
+/*Timeline*/
 .timeline-heading {
   font-family: var(--font);
   color: var(--secondary);
@@ -148,6 +158,9 @@ header h1 {
   position: relative;
   border-radius: 6px;
 }
+/*Timeline*/
+
+/*Footer*/
 footer {
   width: 100%;
   background: var(--tertiary);
@@ -165,7 +178,9 @@ footer a {
 footer p {
   padding: 1em;
 }
+/*Footer*/
 
+/*Media Queries for responsiveness*/
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */

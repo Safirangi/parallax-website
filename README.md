@@ -1,4 +1,4 @@
 # parallax-website
-Space Exploration Parallax Website
+Star Cycle Parallax Website
 
-View this project on CodePen.io : [Parallax Website](https://codepen.io/safirangi/full/YzVJxBZ)
+View this project hosted on GitHub Pages : [Star Cycle : Parallax Website](https://safirangi.github.io/parallax-website/)

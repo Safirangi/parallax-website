@@ -220,7 +220,7 @@ footer p {
     height: 175vh;
   }
 }
-
+/*Mobile Screen*/
 /*Responsive for 320px screens*/
 @media screen and (max-width: 320px) {
   .glass {

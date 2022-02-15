@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
-/*Base Style*/
 :root {
   --font: "Work Sans", sans-serif;
   --primary: #2a9d8f;
@@ -20,9 +19,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-/*Base Style*/
-
-/*Nav bar*/
 nav {
   top: 0;
   text-align: center;
@@ -42,19 +38,14 @@ nav li a:hover {
   border-radius: 0.7em;
   text-decoration: none;
 }
-/*Navbar*/
-
-/*Header and content*/
 header {
   text-align: center;
   color: var(--secondary);
   font-family: var(--font);
-  height: 100vh;
 }
 header h1 {
   padding: 1em 0 0;
 }
-/*Translucent backdrop*/
 .glass {
   /*backdrop-filter: blur(5px);*/
   display: flex;
@@ -65,12 +56,11 @@ header h1 {
   background: var(--secondary);
   opacity: 0.6;
   color: var(--tertiary);
-  margin: 3em 10em;
+  margin: 3em auto;
   border-radius: 0.6em;
+  width: 85%;
+  max-width: 1000px;
 }
-/*Header*/
-
-/*Timeline*/
 .timeline-heading {
   font-family: var(--font);
   color: var(--secondary);
@@ -160,9 +150,6 @@ header h1 {
   position: relative;
   border-radius: 6px;
 }
-/*Timeline*/
-
-/*Footer*/
 footer {
   width: 100%;
   background: var(--tertiary);
@@ -180,7 +167,6 @@ footer a {
 footer p {
   padding: 1em;
 }
-/*Footer*/
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -214,21 +200,7 @@ footer p {
     left: 0%;
   }
   .glass {
-    margin: 1em 3em 2em;
+    margin: 1em auto 2em;
     padding: 2em 2em;
-  }
-  header {
-    height: 175vh;
-  }
-}
-/*Mobile Screen*/
-/*Responsive for 320px screens*/
-@media screen and (max-width: 320px) {
-  .glass {
-    margin: 1em 1em 2em;
-    padding: 2em 1em;
-  }
-  header {
-    height: 260vh;
   }
 }
